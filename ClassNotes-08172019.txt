@@ -1,0 +1,127 @@
+package pkg1;
+
+public class myFirstTest 
+{
+
+	public static void main(String[] args) 
+	{
+		byte t = 127;
+		int x,y,z;
+		x = 50; y = 2;
+		z = x * y;
+		z = x % y;  //<-- Modulo Operation
+		System.out.println("Result ==> "+z);
+	}
+
+	
+}
+
+======================================================
+
+package pkg_1_Session1;
+
+public class Session1_3SampleProg
+{
+
+	public static void main(String[] args)
+	{
+		// done with 3 variables
+		int x = 5;
+		int y = 7;
+		int z = 0;
+		System.out.println("x = "+x);
+		System.out.println("y = "+y);
+		System.out.println("z = "+z);
+		z = y; //z = 7
+		System.out.println("After z = "+z);
+		y = x;  //x = 7
+		System.out.println("After y = "+y);
+		x = z;  //y = 5
+		System.out.println("After x = "+x);		
+		//System.out.println("x = "+x + " y = " +y);
+
+		// without 3rd variable
+		int a, b;
+		a = 20;
+		b = 40;
+		
+		a = a + b; //60
+		b = a - b; //20
+		a = a - b; //40
+		
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+==================================================
+package pkg_1_Session2;
+
+public class Session3_1IfThenElse 
+{
+
+	public static void main(String[] args) 
+	{
+		int age,JM;
+		int toddler;
+		
+		age = 26;
+		//y = 35;
+		
+		//Scenario: if - else 
+		if (age < 5)
+		{
+			toddler = 1;
+			System.out.println("The personn is under the age of 5");
+		}
+		else
+		if(age > 5 && age < 25)
+		{
+			
+			System.out.println("The person is a young adult");
+		}
+		
+		//Scenario: if - else-if
+		else
+		if(age >= 26 && age < 50)
+		{
+			System.out.println("The person is a an adult");
+		}
+		else
+			if(age > 51 && age <= 100)
+		{
+			//myvalue = 20;
+			System.out.println("The person is a SENIOR CITIZEN");
+		}
+		
+		
+		//if(x % 2 == 0)
+		//{
+		//	System.out.println("The number is EVEN");
+		//}
+		//else
+		//	System.out.println("The number is ODD");
+	}
+}
+
+
+=====================================================
+
+
+
+
+
+
