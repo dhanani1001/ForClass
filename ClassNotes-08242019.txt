@@ -1,0 +1,112 @@
+public class Session2_6Swap2
+{
+	//swap values of x and y without using the third variable
+	public static void main(String[] args)
+	{
+		int x = 5;
+		int y = 7;
+		
+		System.out.println("Before swap: x = "+x+" y = "+y);
+		
+		x = x+y;
+		y = x-y;
+		x = x-y;
+		
+		System.out.println("After  swap: x = "+x+" y = "+y);
+
+	}
+}
+===============================================================
+
+package pkg_1_Session2;
+
+public class Session2_4Switch
+{
+
+	public static void main(String[] args)
+	{
+		int x = 29;
+		switch(x)
+		{
+			case 20:
+				System.out.println("This is case #1 [Value of x is 20]");
+				break;
+				
+			case 21:
+				System.out.println("This is case #2 [Value of x is 21]");
+				break;
+				
+			case 22:
+				System.out.println("This is case #3 [Value of x is 22]");
+				break;
+				
+			case 23:
+				System.out.println("This is case #4 [Value of x is 23]");
+				break;
+				
+			case 24:
+				System.out.println("This is case #5 [Value of x is 24]");
+				break;
+				
+			case 29:
+				System.out.println("This is case #6 [Value of x is 29]");
+				break;
+				
+			default:
+				System.out.println("This is the default case -- Nothing Matched....");
+				break;
+		}
+	}
+}
+
+=======================================================================
+
+package pkg_1_Session2;
+
+public class Session2_5Swap1
+{
+	//swap values of x and y using the third variable
+	public static void main(String[] args)
+	{
+		int x = 5;
+		int y = 7;
+		int z = 0;
+		
+		System.out.println("Before swap: x = "+x+" y = "+y);
+		
+		z = x;  //value of x saved in z
+		x = y;	//now x has the value of y
+		y = z;	//now y has the value of x
+		
+		System.out.println("After  swap: x = "+x+" y = "+y);
+
+	}
+
+}
+
+
+======================================================================
+
+package pkg_1_Session2;
+
+public class Session2_6Swap2
+{
+	//swap values of x and y without using the third variable
+	public static void main(String[] args)
+	{
+		int x = 5;
+		int y = 7;
+		
+		System.out.println("Before swap: x = "+x+" y = "+y);
+		
+		x = x+y;
+		y = x-y;
+		x = x-y;
+		
+		System.out.println("After  swap: x = "+x+" y = "+y);
+
+	}
+
+}
+
+
